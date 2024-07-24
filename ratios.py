@@ -12,10 +12,10 @@ import re
 # income_statement_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/Apple/Apple_Income_Statement.xlsx"
 # price_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/Apple/Apple_PriceHistory.xlsx"
 
-###BABA###
-balance_sheet_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/BABA/BABA_balance_sheet.xlsx"
-income_statement_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/BABA/BABA_Income_Statement.xlsx"
-price_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/BABA/BABA_PriceHistory.xlsx"
+# ###BABA###
+# balance_sheet_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/BABA/BABA_balance_sheet.xlsx"
+# income_statement_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/BABA/BABA_Income_Statement.xlsx"
+# price_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/BABA/BABA_PriceHistory.xlsx"
 
 # ###GOOGLE###
 # balance_sheet_file_name = "/Users/billjiang/Desktop/EQUATE/EQUATE_Data_Analyze/Google/Google_balance_sheet.xlsx"

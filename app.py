@@ -15,7 +15,7 @@ server = app.server
 uploaded_files = {'balance_sheet': None, 'income_statement': None, 'price_history': None}
 
 app.layout = html.Div([
-    html.H1("FINANCIAL RATIO ANALYSIS", style={'textAlign': 'center', 'marginTop': '20px'}),  # Added title with center alignment and margin
+    html.H1("FINANCIAL RATIO CALCULATOR", style={'textAlign': 'center', 'marginTop': '20px'}),  # Added title with center alignment and margin
     html.H1("Upload Financial Documents", style={'marginTop': '15px'}),
     
     dcc.Upload(

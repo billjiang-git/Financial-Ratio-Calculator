@@ -24,10 +24,10 @@ import re
 
 
 
-df_price = pd.read_excel(price_file_name, skiprows = 15)
-df_balance_sheet = pd.read_excel(balance_sheet_file_name)
-df_income_statement = pd.read_excel(income_statement_file_name)
-is_copy = df_income_statement.copy()
+# df_price = pd.read_excel(price_file_name, skiprows = 15)
+# df_balance_sheet = pd.read_excel(balance_sheet_file_name)
+# df_income_statement = pd.read_excel(income_statement_file_name)
+# is_copy = df_income_statement.copy()
 
 def unit_conversion(df_balance_sheet, df_income_statement):
     is_unit = df_income_statement.iloc[-1, 0].split()[3].lower()
@@ -48,7 +48,7 @@ def unit_conversion(df_balance_sheet, df_income_statement):
     return df_income_statement_converted
 
 
-df_income_statement = unit_conversion(df_balance_sheet, df_income_statement)
+# df_income_statement = unit_conversion(df_balance_sheet, df_income_statement)
 
 
 def fetch_line_data(df, line_title):
@@ -410,5 +410,5 @@ def perform_financial_analysis(df_balance_sheet, df_income_statement, df_price):
 
 
 
-analysis = perform_financial_analysis(df_balance_sheet, df_income_statement, df_price)
-# print(analysis)
+# analysis = perform_financial_analysis(df_balance_sheet, df_income_statement, df_price)
+# # print(analysis)

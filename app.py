@@ -164,6 +164,8 @@ def perform_analysis(n_clicks):
         df_balance_sheet = uploaded_files['balance_sheet']
         df_income_statement = uploaded_files['income_statement']
         df_price_history = uploaded_files['price_history']
+        df_income_statement = unit_conversion(df_balance_sheet, df_income_statement)
+
 
         # Using the renamed function
         analysis_result = perform_financial_analysis(df_balance_sheet, df_income_statement, df_price_history)
